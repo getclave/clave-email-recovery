@@ -2,22 +2,22 @@ import * as hre from "hardhat";
 import { deployContract, getWallet } from "./utils";
 
 const mainnet = {
-  factoryAddress: "0x147E23A284dde7FF6b42f835253B9b0CBce6c84e",
-  verifier: "0x520E9fc008f58ba339EEB6AbAeF30d3325F3F5C4",
-  dkimRegistry: "0xA10bAa5FA41E25Eb50711a57AA2f0a9c06A6A009",
-  emailAuthImpl: "0xe8b70B310D0f0e35985e757c5a73290Dcc24Eb69",
+  dkimRegistry: "0x25c67a2313FCE68D741f3ab31C851EBCdFFfBd4C",
+  verifier: "0x0679f14d91c9519a1376C1b65Dc731FE25Bd4272",
+  emailAuthImpl: "0x2a5F70E28C1bF0d5cBA6EC6d170F9a36f905366F",
+  factoryAddress: "0x10959669CF1c92B4cf14D9F925f5F2Df488Ce4C4",
   bytecodeHash:
-    "0x010000810f12e857cc327d0fe44fd50632c222c2082ffa123c42102ff78a47cd",
+    "0x010000817949717e7168c684f6dbb83a7051fa4c28e9e2b04784b6a6d4df360a",
   minimumDelay: 0,
 };
 
 const testnet = {
-  factoryAddress: "0x1a9806ECa5a86e2A614647a2B1245762520fB729",
-  verifier: "0xbcd38daF327818De796fE8de684b392A4B4584C8",
-  dkimRegistry: "0x743ADbd9886Aebe79a9D2dEB4f5c8686DB7463D9",
-  emailAuthImpl: "0x51233067952888A99E692d263550e6f33Ab00194",
+  dkimRegistry: "0x07284efbc9A44eDE8Cf61daE96298FA16bf5591e",
+  verifier: "0xCf619836B8fb82C9cAdF52d81644dd59Ed520DaE",
+  emailAuthImpl: "0x398316B211BeEe5238BB34f8a4e565cCbA790ADC",
+  factoryAddress: "0x934D44cD16a25C7Ef93583674cDb5F303bC8d393",
   bytecodeHash:
-    "0x01000081bdf506a8c0ed71857afdab50746414f3bfc88c376acfb2bcfb3baa18",
+    "0x01000081183d2be3ef5a61113657f87b159436fbccec981e966ffd26816c2c34",
   minimumDelay: 0,
 };
 

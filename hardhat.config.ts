@@ -14,15 +14,15 @@ import type { NetworkUserConfig } from "hardhat/types";
 import "./tasks/deploy";
 
 const mainnet = {
-  DecimalUtils: "0x687C913942fBeDAed383420c25f06c675D63Fd59",
-  CommandUtils: "0xA6117a66C40ec9eD65B251874D70cC9E7cF6052b",
-  StringUtils: "0x6Cd2d8aE77Fa5455200B338ffA06BFB0970e7A57",
+  DecimalUtils: "0x64c7C15d135C77A4A5f1D8bB8371f21e94782C06",
+  CommandUtils: "0x8B0ee5573f93706D7a3f2eC10B4670BF6d295B7c",
+  StringUtils: "0xbB924a1116b9EBCff19A6C83B97B06B8Aa3BF918",
 };
 
 const testnet = {
-  DecimalUtils: "0x95C21cE16f9d20fE406ce67D8eFcd521b162C6Fa",
-  CommandUtils: "0x691727F67b2AbE8Bba1b37b198A5EE491a7084be",
-  StringUtils: "0x75DcAc758184454B9d8c96B95272899FECA2BA66",
+  DecimalUtils: "0x0b5900C91Cb1683182c6d279C22706e6a6C65Bfb",
+  CommandUtils: "0x9821b97F3b585738648cfB50F3EfF9c5DB490Cc2",
+  StringUtils: "0x86E65d11ef3C99ABb34a8C903552906E906661FE",
 };
 
 const VARS = testnet;
