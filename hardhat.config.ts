@@ -14,18 +14,20 @@ import type { NetworkUserConfig } from "hardhat/types";
 import "./tasks/deploy";
 
 const mainnet = {
-  DecimalUtils: "0x64c7C15d135C77A4A5f1D8bB8371f21e94782C06",
-  CommandUtils: "0x8B0ee5573f93706D7a3f2eC10B4670BF6d295B7c",
-  StringUtils: "0xbB924a1116b9EBCff19A6C83B97B06B8Aa3BF918",
+  DecimalUtils: "0x718C17388E0A1b63788E80F789B03cdd8Df76060",
+  CommandUtils: "0x72971413eC4D6F4298C9E906f85a9f78a73773a5",
+  StringUtils: "0x888A8339fF7465DfE29BcC1f930B983C01a35C0a",
+  defaultNetwork: "zkSyncMainnet",
 };
 
 const testnet = {
   DecimalUtils: "0x0b5900C91Cb1683182c6d279C22706e6a6C65Bfb",
   CommandUtils: "0x9821b97F3b585738648cfB50F3EfF9c5DB490Cc2",
   StringUtils: "0x86E65d11ef3C99ABb34a8C903552906E906661FE",
+  defaultNetwork: "zkSyncSepolia",
 };
 
-const VARS = testnet;
+const VARS = mainnet;
 
 dotenv.config();
 
@@ -82,7 +84,7 @@ const config: HardhatUserConfig = {
       },
     },
   },
-  defaultNetwork: "zkSyncSepolia",
+  defaultNetwork: VARS.defaultNetwork,
   networks: {
     hardhat: {
       zksync: true,
